@@ -95,6 +95,7 @@ const Form = () => {
         <label htmlFor="name">
           Name:
           <input
+            className="nameInput"
             id="name"
             type="text"
             name="name"
@@ -117,7 +118,7 @@ const Form = () => {
           <option value="Project Manager">Project Manager</option>
         </select>
         <p className="errors">{errors.role}</p>
-        <p style={{marginTop: "10px"}}>Gender:</p>
+        <p style={{ marginTop: "10px" }}>Gender:</p>
         <div className="radio">
           <label>
             <input
