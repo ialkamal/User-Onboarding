@@ -1,7 +1,7 @@
 describe("Form Test", function () {
   it("Check Form Fields", function () {
     //Don't forget to select the correct port
-    cy.visit("localhost:3001");
+    cy.visit("localhost:3000");
 
     cy.get("input[name=name]")
       .type("Basel Taher")
